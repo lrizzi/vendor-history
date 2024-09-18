@@ -1,0 +1,103 @@
+graph Vendor {
+//graph [nodesep=0.5, ranksep=0.5];
+//rankdir=RL;
+//rankdir=LR;
+//clusterrank=none
+compound=true;
+//edge [dir="both"]
+//concentrate=true
+
+//subgraph cluster0 {
+//  label="Datacenter PC";
+  //compt01pia1 [shape=record,label="<host>compt01pia1\nAuerswald|<e1>E1|<s01>S0-1|<s02>S0-2|<s03>S0-3|<s04>S0-4|<s05>S0-5|<s06>S0-6|<s07>S0-7|<s08>S0-8|"];
+ 
+//  subgraph cluster_00 {
+//  label="External"
+//  Telnet [shape=record,label="<host>Telnet|<transit>Transit|<access>Access"];
+//  MinapF [shape=record,label="<host>Minap Telnet|<p01>Port 01|<p02> Port 02|<p03> Port 03"];
+//}
+//}
+
+ATT [label="AT&T Technologies"] 
+Lucent [label="Lucent Technologies"] 
+Western [label="Western Electric"]
+Bell [label="Bell Labs"]
+BellSys [label="Bell System"]
+Nokia [label="Nokia Networks"]
+Bay [label="Bay Networks"]
+ThreeCom [label="3Com"]
+Ericsson
+Nortel
+Avaya
+
+Lucent -- NCR -- ATT
+
+Bell -- BellSys -- Belcore -- Telcordia -- Ericsson -- Iconectiv
+
+Western -- Bell -- ATT
+
+Bay -- Nortel
+Alteon -- Nortel
+BellSys -- Nortel
+Western -- Nortel
+Nortel -- Avaya
+Lucent -- Avaya
+
+ATT -- Lucent -- AlcatelLucent -- Nokia
+Ascend -- Lucent
+Chromatis -- Lucent
+
+Nortel -- Ciena
+Coriant -- Infinera -- Nokia
+
+Siemens -- NokiaSiemens -- Nokia
+Siemens -- Unify
+
+Adva -- Adtran
+
+Patapsco -- Transition -- Lantronix
+Marconi -- Ericsson
+HP -- Ericsson
+
+LGNortel --EricssonLG
+
+Ericsson -- Aastra 
+Ericsson -- Saab
+Tandberg -- Ericsson
+Tandberg -- Cisco
+
+Matra -- Aastra
+Lucent -- Aastra
+Ericsson -- Aastra
+Nortel -- Aastra
+Ascom -- Aastra
+
+Aastra -- Mitel
+DeTeWe -- Mitel
+ShoreTel -- Mitel
+Unify -- Mitel
+
+Aerohive -- Extreme 
+
+Aruba -- HPE
+ThreeCom -- HPE
+Procurve -- HPE
+H3C -- HPE
+TippingPoing -- HPE
+Juniper -- HPE
+
+Enterasys -- Extreme
+
+Ruckus -- Brocade -- Arris -- CommScope
+Foundry -- Brocade
+
+Brocade -- Broadcom
+Avago -- Broadcom
+Emulex -- Broadcom
+
+Cavium -- Marvell
+Qlogic -- Marvell
+
+//label = "\nRetronet Draft\n\nLeonardo Rizzi\nRed = WDM | Blue = Uplink | Orange = ISDN | Brown = PSTN | Olive = SIP";
+//fontsize=13;
+}
