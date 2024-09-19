@@ -374,6 +374,15 @@ clusterrank=LR
 }
 
 {   
+    //1993
+    rank=same;
+    1993 [shape=box]
+    Adva
+    ChinaHuaxinPost [label="China Huaxin Post and Telecom Technologies"]
+}
+
+
+{   
     //1995
     rank=same;
     1995 [shape=box]
@@ -563,6 +572,7 @@ clusterrank=LR
     NokiaNet [label="Nokia Networks"];
     Mitel2014 [label="Mitel"];
     BintecElmeg
+    AlcatelLucent2014 [label="Alcatel Lucent"];
 
 }
 
@@ -611,6 +621,7 @@ clusterrank=LR
     Extreme2019 [label="Extreme"];
     Poly
     CommScope2019 [label="CommScope"]
+    ALE [label="Alcatel-Lucent Enterprise"]
 }
 
 {
@@ -761,12 +772,13 @@ clusterrank=LR
     // Not accurate in 1992 two VEB company merged, but I don't understand how
     Neutrowerk -> FunkwerkKolleda -> KombinatNachrichtenelektronik -> Funkwerk [color=red]
 
+    ChinaHuaxinPost -> ALE
 
 // Acquisition List
 
 BellSys -> BellCore -> Telcordia -> Ericsson2012 -> Iconectiv
 
-Alcatel -> AlcatelLucent
+Alcatel -> AlcatelLucent -> AlcatelLucent2014 -> ALE
 
 Western -> ATTCorp
 BellSys -> ATTCorp -> ATT
