@@ -1,0 +1,694 @@
+digraph Vendor {
+//graph [nodesep=0.5, ranksep=0.5];
+//rankdir=RL;
+//rankdir=LR;
+clusterrank=LR
+//compound=true;
+//edge [dir="both"]
+//concentrate=true
+
+{
+    // 1847
+    rank=same;
+    1847 [shape=box]
+    Siemens
+}
+
+{
+    // 1865
+    rank=same;
+    1865 [shape=box]
+    Nokia
+}
+
+{
+    // 1869
+    rank=same;
+    1869 [shape=box]
+    Western [label="Western Electric"];
+}
+
+{
+    // 1876
+    rank=same;
+    1876 [shape=box]
+    Ericsson
+}
+
+{
+    // 1877
+    rank=same;
+    1877 [shape=box]
+    BellSys [label="Bell System / Bell Telephone"];
+}
+
+{
+    // 1885
+    rank=same;
+    1885 [shape=box]
+    ATTCorp [label="AT&T Corporation"];
+}
+
+{
+    // 1887
+    rank=same;
+    1887 [shape=box]
+    DeTeWe
+}
+
+
+{
+    // 1897
+    rank=same;
+    1897 [shape=box]
+    Marconi
+}
+
+{
+    // 1925
+    rank=same;
+    1925 [shape=box]
+    Bell [label="Bell Labs"];
+}
+
+{
+    // 1933
+    rank=same;
+    1933 [shape=box]
+    Tandberg
+}
+
+{
+    // 1939
+    rank=same;
+    1939 [shape=box]
+    HP [label="Hewlett Packard"];
+}
+
+{
+    // 1957
+    rank=same;
+    1957 [shape=box]
+    DEC [label="Digital Equipment Corporation"];
+}
+
+
+{
+    // 1961
+    rank=same;
+    1961 [shape=box]
+    HPA
+    Plantronics
+}
+
+
+{
+    // 1970
+    rank=same;
+    1970 [shape=box]
+    Alcatel
+}
+
+{
+    // 1971
+    rank=same;
+    1971 [shape=box]
+    Mitel
+}
+
+{
+    // 1976
+    rank=same;
+    1976 [shape=box]
+    Northern [label="Northern Telecom"];
+    CommScope
+}
+
+{
+    // 1978
+    rank=same;
+    1978 [shape=box]
+    Emulex
+}
+
+{
+    // 1979
+    rank=same;
+    1979 [shape=box]
+    ThreeCom [label="3Com"];
+}
+
+{
+    //1980
+    rank=same;
+    1980 [shape=box]
+    Ortel
+}
+
+{
+    //1982
+    rank=same;
+    1982 [shape=box]
+    Compaq
+}
+
+{
+    //1983
+    rank=same;
+    1983 [shape=box]
+    ATT [label="AT&T Technologies"];
+    Aastra [label="Aastra Technologies"];
+    BellCore 
+    Enterasys [label="Enterasys / Cabletron Systems"];
+}
+
+{
+    //1984
+    rank=same;
+    1984 [shape=box]
+    Cisco
+}
+
+{
+    //1985
+    rank=same;
+    1985 [shape=box]
+    Adtran
+}
+
+{
+    //1986
+    rank=same;
+    1986 [shape=box]
+    Aironet
+}
+
+{
+    //1987
+    rank=same;
+    1987 [shape=box]
+    Transition [label="Transition Networks"]
+}
+
+{   
+    //1989
+    rank=same;
+    1989 [shape=box]
+    Lantronix
+    
+}
+
+{   
+    //1990
+    rank=same;
+    1990 [shape=box]
+    Polycom
+    Kalpana
+    LightStream
+    NetworkTranslation [label="Network Translation"]
+}
+
+
+{   
+    //1992
+    rank=same;
+    1992 [shape=box]
+    Ciena
+    Qlogic
+    GrandJunctionNetworks [label="Grand Junction Networks"]
+}
+
+{   
+    //1993
+    rank=same;
+    1993 [shape=box]
+    Cisco1993 [label="Cisco"]
+}
+
+{   
+    //1994
+    rank=same;
+    1994 [shape=box]
+    Adva
+    Cisco1994 [label="Cisco"]
+}
+
+{   
+    //1995
+    rank=same;
+    1995 [shape=box]
+    Brocade
+    Riverstone
+    Marvell
+    Cisco1995 [label="Cisco"]
+    Arris
+}
+
+{   
+    //1996
+    rank=same;
+    1996 [shape=box]
+    Lucent [label="Lucent Technologies"];
+    Alteon
+    Bay [label="Bay Networks"];
+    Telcordia
+    Extreme
+    Foundry
+    ShoreTel
+    Juniper
+}
+
+{   
+    //1997
+    rank=same;
+    1997 [shape=box]
+    Enterasys1997 [label="Enterasys / Cabletron Systems"];
+    NetScreen
+}
+
+
+{
+    //1998
+    rank=same;
+    1998 [shape=box]
+    Nortel1998 [label="Nortel"];
+    Broadcom
+    Chromatis
+    Compaq1998 [label="Compaq"];
+}
+
+{
+    //1999
+    rank=same;
+    1999 [shape=box]
+    Agilent
+    Lucent1999 [label="Lucent Technologies"];
+    Cisco1999 [label="Cisco"]
+
+}
+
+{
+    //2000
+    rank=same;
+    2000 [shape=box]
+    Nortel2000 [label="Nortel"];
+    Avaya
+    Infinera
+    Aastra2000 [label="Aastra Technologies"];
+    Lucent2000 [label="Lucent Technologies"];
+    Cavium
+}
+
+{
+    //2001
+    rank=same;
+    2001 [shape=box]
+    Aastra2001 [label="Aastra Technologies"];
+}
+
+{
+    //2002
+    rank=same;
+    2002 [shape=box]
+    Aastra2002 [label="Aastra Technologies"];
+    HP2002 [label="Hewlett Packard"];
+    Aruba
+    Ruckus
+}
+
+{
+    //2003
+    rank=same;
+    2003 [shape=box]
+    Aastra2003 [label="Aastra Technologies"];
+}
+
+{
+    //2004
+    rank=same;
+    2004 [shape=box]
+    Aastra2004 [label="Aastra Technologies"];
+    Juniper2004 [label="Juniper"];
+}
+
+{
+    //2005
+    rank=same;
+    2005 [shape=box]
+    Avago
+    Aastra2005 [label="Aastra Technologies"];
+    Marvell2005 [label="Marvell"]
+}
+
+{
+    //2006
+    rank=same;
+    2006 [shape=box]
+    Lucent2006 [label="Lucent Technologies"];
+    AlcatelLucent [label="Alcatel Lucent"];
+    Ericsson2006 [label="Ericsson"];
+    Aerohive
+    SiemensEnt [label="Siemens Enterprise Communications"]
+
+}
+
+{
+    //2007
+    rank=same;
+    2007 [shape=box]
+    NokiaSiemens [label="Nokia Siemens"];
+
+}
+
+{
+    //2008
+    rank=same;
+    2008 [shape=box]
+    Unify
+    Brocade2008 [label="Brocade"];
+    Aastra2008 [label="Aastra Technologies"];
+    Enterasys2008 [label="Enterasys / Cabletron Systems"];
+}
+
+{
+    //2009
+    rank=same;
+    2009 [shape=box]
+    Avaya2009 [label="Avaya"];
+    Ciena2009 [label="Ciena"];
+    Radware2009 [label="Radware"];
+
+}
+
+{
+    //2010
+    rank=same;
+    2010 [shape=box]
+    HP2010 [label="Hewlett Packard"];
+    Cisco2010 [label="Cisco"]
+}
+
+{
+    //2012
+    rank=same;
+    2012 [shape=box]
+    Ericsson2012 [label="Ericsson"];
+    Iconectiv
+}
+
+{
+    //2013
+    rank=same;
+    2013 [shape=box]
+    Coriant
+    Extreme2013 [label="Extreme"];
+    Mitel2013 [label="Mitel"];
+
+}
+
+{
+    //2014
+    rank=same;
+    2014 [shape=box]
+    NokiaNet [label="Nokia Networks"];
+    Mitel2014 [label="Mitel"];
+
+}
+
+{
+    //2015
+    rank=same;
+    2015 [shape=box]
+    HPE [label="Hewlett Packard Enterprise"];
+    Avago2015 [label="Avago"];
+
+}
+
+{
+    //2016
+    rank=same;
+    2016 [shape=box]
+    NokiaNet2016 [label="Nokia Networks"];
+    Broadcom2016 [label="Broadcom"];
+    Brocade2016 [label="Brocade"];
+
+}
+
+{
+    //2017
+    rank=same;
+    2017 [shape=box]
+    Mitel2017 [label="Mitel"];
+    Arris2017 [label="Arris"]
+
+}
+   
+{
+    //2018
+    rank=same;
+    2018 [shape=box]
+    Infinera2018 [label="Infinera"];
+    Marvell2018 [label="Marvell"]
+}
+
+{
+    //2019
+    rank=same;
+    2019 [shape=box]
+    Extreme2019 [label="Extreme"];
+    Poly
+    CommScope2019 [label="CommScope"]
+}
+
+{
+    //2021
+    rank=same;
+    2021 [shape=box]
+    Lantronix2021 [label="Lantronix"];
+}
+
+
+{
+    //2023
+    rank=same;
+    2023 [shape=box]
+    Mitel2023 [label="Mitel"];
+}
+
+{
+    //2024
+    rank=same;
+    2024 [shape=box]
+    Adtran2024 [label="Adtran"]
+    NokiaNet2024 [label="Nokia Networks"];
+    HPE2024 [label="Hewlett Packard Enterprise"];
+}
+
+    subgraph cluster_hackyears { 1847 -> 1865 -> 1869 -> 1876 -> 1877 -> 1885 -> 1887 -> 1897 -> 1925 -> 1933 -> 1939 -> 1957 -> 1961 -> 1970 -> 1971 -> 1976 -> 1978 -> 1979 -> 1980 -> 1982 -> 1983 -> 1984 -> 1985 -> 1986 -> 1987 -> 1989 -> 1990 -> 1992 -> 1993 -> 1994 -> 1995 -> 1996 -> 1997 -> 1998 -> 1999 -> 2000 -> 2001 -> 2002 -> 2003 -> 2004 -> 2005 -> 2006 -> 2007 -> 2008 -> 2009 -> 2010 -> 2012 -> 2013 -> 2014 -> 2015 -> 2016 -> 2017 -> 2018 -> 2019 -> 2021 -> 2023 -> 2024 [style="invis"] }
+
+    subgraph cluster_nortelyears { Nortel1998 -> Nortel2000 [style="invis"] }
+    // Nortel History
+    Northern -> Nortel1998 -> Nortel2000 [color=red]
+
+    subgraph cluster_lucentyears { Lucent -> Lucent1999 -> Lucent2000  -> Lucent2006 [style="invis"] }
+    // Lucent History
+    Lucent -> Lucent1999 -> Lucent2000 -> Lucent2006 [color=red]
+
+
+    subgraph cluster_adtranyears { Adtran -> Adtran2024 [style="invis"] }
+    // Adtran History
+    Adtran -> Adtran2024 [color=red]
+
+
+    subgraph cluster_avayayears { Avaya -> Avaya2009 [style="invis"] }
+    // Avaya History
+    Avaya -> Avaya2009 [color=red]
+
+
+    subgraph cluster_hp { HP -> HP2002 -> HP2010 -> HPE [style="invis"] }
+    //HP History
+    HP -> HP2002 -> HP2010 -> HPE [color=red]
+
+
+    subgraph cluster_nokiayears { Nokia -> NokiaSiemens -> NokiaNet -> NokiaNet2016 -> NokiaNet2024 [style="invis"] }
+    // Nokia History
+    Nokia -> NokiaSiemens -> NokiaNet -> NokiaNet2016 -> NokiaNet2024 [color=red]
+
+
+    subgraph cluster_ericssonyears { Ericsson -> Ericsson2006 -> Ericsson2012 [style="invis"] }
+    //Ericsson History
+    Ericsson -> Ericsson2006 -> Ericsson2012 [color=red]
+
+
+    subgraph cluster_infinerayears { Infinera -> Infinera2018 [style="invis"] }
+    //Infinera History
+    Infinera -> Infinera2018 [color=red]
+
+    subgraph cluster_cienayears { Ciena -> Ciena2009 [style="invis"] }
+    //Infinera History
+    Ciena -> Ciena2009 [color=red]
+
+    subgraph cluster_mitelyears { Mitel -> Mitel2013 -> Mitel2014 -> Mitel2023 [style="invis"] }
+    //Mitel History
+    Mitel -> Mitel2013 -> Mitel2014 -> Mitel2017 -> Mitel2023 [color=red]
+
+    subgraph cluster_extremeyears { Extreme -> Extreme2013-> Extreme2019 [style="invis"] }
+    //Extreme History
+    Extreme -> Extreme2013-> Extreme2019 [color=red]
+
+
+    subgraph cluster_brocadeyears { Brocade -> Brocade2008 [style="invis"] }
+    //Brocade History
+    Brocade -> Brocade2008 [color=red]
+
+    subgraph cluster_lantronixyears { Lantronix -> Lantronix2021 [style="invis"] }
+    //Lantronix History
+    Lantronix -> Lantronix2021 [color=red]
+
+    subgraph cluster_broadcomyears {   Aastra -> Aastra2000 -> Aastra2001 -> Aastra2002 -> Aastra2003 -> Aastra2004 -> Aastra2005 -> Aastra2008 [style="invis"] }
+    //Aastra History
+    Aastra -> Aastra2000 -> Aastra2001 -> Aastra2002 -> Aastra2003 -> Aastra2004 -> Aastra2005 -> Aastra2008 [color=red]
+
+
+    subgraph cluster_broadcomyears {  HPA -> Agilent -> Avago -> Avago2015 -> Broadcom2016 [style="invis"] }
+    //Broadcom History
+    HPA -> Agilent -> Avago -> Avago2015 -> Broadcom2016 [color=red]
+    Broadcom -> Avago
+
+
+    subgraph cluster_hpeyears {  HPE -> HPE2024 [style="invis"] }
+    //HPE History
+    HPE -> HPE2024 [color=red]
+
+
+
+    subgraph cluster_compaqyears { Lantronix -> Lantronix2021 [style="invis"] }
+    //Compaq History
+    Compaq -> Compaq1998 [color=red]
+
+
+    subgraph cluster_marvellyears { Marvell -> Marvell2005 -> Marvell2018 [style="invis"] }
+    //Marvell History
+     Marvell -> Marvell2005 -> Marvell2018 [color=red]
+
+    subgraph cluster_ciscoyears { Cisco -> Cisco1993 -> Cisco1994 -> Cisco1995 -> Cisco1999 -> Cisco2010 [style="invis"] }
+    //Cisco History
+    Cisco -> Cisco1993 -> Cisco1994 -> Cisco1995 -> Cisco1999 -> Cisco2010 [color=red]
+
+    subgraph cluster_juniperyears { Juniper -> Juniper2004 [style="invis"] }
+    //Juniper History
+    Juniper -> Juniper2004 [color=red]
+
+    subgraph cluster_enterasysyears { Enterasys -> Enterasys1997 -> Enterasys2008 [style="invis"] }
+    //Cabletron Enterasys History
+    Enterasys -> Enterasys1997 -> Enterasys2008 [color=red]
+
+    subgraph cluster_commscopyears { CommScope -> CommScope2019 [style="invis"] }
+    // Arris History
+    CommScope -> CommScope2019 [color=red]
+
+    subgraph cluster_arrisyears { Arris -> Arris2017 [style="invis"] }
+    // Arris History
+    Arris -> Arris2017 [color=red]
+
+// Acquisition List
+
+BellSys -> BellCore -> Telcordia -> Ericsson2012 -> Iconectiv
+
+Alcatel -> AlcatelLucent
+
+Western -> ATTCorp
+BellSys -> ATTCorp -> ATT
+
+Bay -> Nortel1998
+
+Alteon -> Nortel2000
+Alteon -> Radware2009
+
+BellSys -> Nortel
+Western -> Nortel
+Nortel -> Avaya2009
+Lucent -> Avaya
+
+ATT -> Lucent -> AlcatelLucent -> NokiaNet2016
+// Lucent Acquisitions
+Ascend -> Lucent1999
+Chromatis -> Lucent2000
+Ortel -> Lucent2000
+
+Nortel -> Ciena2009
+
+// Siemens and Nokia Stuff
+NokiaSiemens -> Coriant -> Infinera2018
+Infinera -> NokiaNet2024
+Siemens -> NokiaSiemens
+Siemens -> SiemensEnt -> Unify
+SiemensEnt -> Enterasys2008
+
+Adva -> Adtran2024
+
+// I don't know when it was founded ????
+//Patapsco -> 
+Transition -> Lantronix2021
+Marconi -> Ericsson2006
+
+//LGNortel ->EricssonLG
+//Ericsson -> Saab 
+//Tandberg -> Ericsson // Video Encoder
+
+
+//Matra -> Aastra
+Lucent -> Aastra2001 //Video
+Ericsson -> Aastra2002 // Cable
+Nortel1998 -> Aastra2000 //Phone
+Nortel1998 -> Aastra2003 //CVX CSG
+Nortel1998 -> Aastra2004 //Ascom
+
+Aastra -> Mitel2014
+DeTeWe -> Aastra2005
+ShoreTel -> Mitel2017
+Unify -> Mitel2023
+
+Aerohive -> Extreme2019
+Enterasys -> Extreme2013
+
+
+Aruba -> HPE
+ThreeCom -> HP2010
+//H3C -> HPE
+
+Ruckus -> Brocade2016
+Ruckus -> Arris2017
+Foundry -> Brocade2008
+
+Brocade -> Broadcom2016
+Emulex -> Avago2015
+
+Cavium -> Marvell2018
+Qlogic -> Marvell2005
+
+HP -> Poly
+Plantronics -> Poly
+Polycom -> Poly
+
+DEC -> Enterasys1997
+DEC -> Compaq1998
+Compaq -> HP2002
+Riverstone -> Lucent2006
+
+NetScreen -> Juniper2004
+Juniper -> HPE2024
+
+Crescendo -> Cisco1993
+Kalpana -> Cisco1994
+LightStream -> Cisco1994
+GrandJunctionNetworks -> Cisco1995
+NetworkTranslation -> Cisco1995
+Aironet -> Cisco1999
+Tandberg -> Cisco2010
+
+Arris -> CommScope2019
+
+label = "\nNetwork/Phone Vendors\n\nRED = Same Company";
+fontsize=13;
+}
