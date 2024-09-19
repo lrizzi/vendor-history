@@ -363,6 +363,7 @@ clusterrank=LR
     rank=same;
     1993 [shape=box]
     Cisco1993 [label="Cisco"]
+    ChinaHuaxinPost [label="China Huaxin Post and Telecom Technologies"]
 }
 
 {   
@@ -372,15 +373,6 @@ clusterrank=LR
     Adva
     Cisco1994 [label="Cisco"]
 }
-
-{   
-    //1993
-    rank=same;
-    1993 [shape=box]
-    Adva
-    ChinaHuaxinPost [label="China Huaxin Post and Telecom Technologies"]
-}
-
 
 {   
     //1995
