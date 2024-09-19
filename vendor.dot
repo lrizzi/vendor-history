@@ -15,6 +15,20 @@ clusterrank=LR
 }
 
 {
+    // 1847
+    rank=same;
+    1852 [shape=box]
+    Hasler
+}
+
+{
+    // 1859
+    rank=same;
+    1859 [shape=box]
+    Diebold
+}
+
+{
     // 1865
     rank=same;
     1865 [shape=box]
@@ -50,12 +64,25 @@ clusterrank=LR
 }
 
 {
+    // 1886
+    rank=same;
+    1886 [shape=box]
+    Bosch
+}
+
+{
     // 1887
     rank=same;
     1887 [shape=box]
     DeTeWe
 }
 
+{
+    // 1891
+    rank=same;
+    1891 [shape=box]
+    Philips
+}
 
 {
     // 1897
@@ -63,6 +90,44 @@ clusterrank=LR
     1897 [shape=box]
     Marconi
 }
+
+{
+    // 1898
+    rank=same;
+    1898 [shape=box]
+    Italtel [label="Società Italiana Siemens per Impianti Elettrici"]
+}
+
+
+{
+    // 1899
+    rank=same;
+    1899 [shape=box]
+    DeutschePrivatTelephonGesellschaft [label="Deutsche Privat Telephon Gesellschaft"]
+}
+
+{
+    // 1912
+    rank=same;
+    1912 [shape=box]
+    TeKaDe
+}
+
+{
+    // 1921
+    rank=same;
+    1921 [shape=box]
+    Italtel1921 [label="Siemens SA (Italtel)"]
+}
+
+{
+    // 1922
+    rank=same;
+    1922 [shape=box]
+    Autophon
+}
+
+
 
 {
     // 1925
@@ -79,10 +144,54 @@ clusterrank=LR
 }
 
 {
+    // 1934
+    rank=same;
+    1934 [shape=box]
+    TN [label="Telefonbau und Normalzeit"]
+}
+
+{
     // 1939
     rank=same;
     1939 [shape=box]
     HP [label="Hewlett Packard"];
+}
+
+{
+    // 1945
+    rank=same;
+    1945 [shape=box];
+    Neutrowerk
+    Italtel1945 [label="Siemens SA (Italtel)"]
+}
+
+{
+    // 1946
+    rank=same;
+    1946 [shape=box];
+    Bernafon
+}
+
+
+{
+    // 1948
+    rank=same;
+    1948 [shape=box];
+    FunkwerkKolleda [label="Funkwerk Kölleda"]
+}
+
+{
+    // 1950
+    rank=same;
+    1950 [shape=box];
+    Italtel1950 [label="Società Italiana Telecomunicazioni Siemens / SIT-Siemens / Siemens Auso Telecomunicazioni"]
+}
+
+{
+    // 1952
+    rank=same;
+    1952 [shape=box]
+    Nixdorf
 }
 
 {
@@ -92,6 +201,12 @@ clusterrank=LR
     DEC [label="Digital Equipment Corporation"];
 }
 
+{
+    // 1960
+    rank=same;
+    1960 [shape=box]
+    Auerswald
+}
 
 {
     // 1961
@@ -114,6 +229,13 @@ clusterrank=LR
     rank=same;
     1971 [shape=box]
     Mitel
+}
+
+{
+    // 1973
+    rank=same;
+    1973 [shape=box]
+    Tiptel
 }
 
 {
@@ -143,6 +265,15 @@ clusterrank=LR
     rank=same;
     1980 [shape=box]
     Ortel
+    KombinatNachrichtenelektronik [label="Kombinat Nachrichtenelektronik"]
+}
+
+{
+    //1981
+    rank=same;
+    1981 [shape=box]
+    Telenorma
+    Italtel1981 [label="Italtel Spa"]
 }
 
 {
@@ -150,6 +281,7 @@ clusterrank=LR
     rank=same;
     1982 [shape=box]
     Compaq
+    PKI [label="Philips Kommunikations Industrie"]
 }
 
 {
@@ -160,6 +292,8 @@ clusterrank=LR
     Aastra [label="Aastra Technologies"];
     BellCore 
     Enterasys [label="Enterasys / Cabletron Systems"];
+    Teles
+    Teldat
 }
 
 {
@@ -188,6 +322,9 @@ clusterrank=LR
     rank=same;
     1987 [shape=box]
     Transition [label="Transition Networks"]
+    Autophon1987 [label="Autophon"]
+    Gfeller
+    Ascom
 }
 
 {   
@@ -195,6 +332,7 @@ clusterrank=LR
     rank=same;
     1989 [shape=box]
     Lantronix
+    Bosch1989 [label="Bosch"]
     
 }
 
@@ -206,6 +344,8 @@ clusterrank=LR
     Kalpana
     LightStream
     NetworkTranslation [label="Network Translation"]
+    Siemens1990 [label="Siemens"]
+    SiemensNixdorf
 }
 
 
@@ -264,6 +404,7 @@ clusterrank=LR
     1997 [shape=box]
     Enterasys1997 [label="Enterasys / Cabletron Systems"];
     NetScreen
+    Innovaphone
 }
 
 
@@ -284,6 +425,8 @@ clusterrank=LR
     Agilent
     Lucent1999 [label="Lucent Technologies"];
     Cisco1999 [label="Cisco"]
+    Tenovis
+    WincorNixdorf
 
 }
 
@@ -297,6 +440,7 @@ clusterrank=LR
     Aastra2000 [label="Aastra Technologies"];
     Lucent2000 [label="Lucent Technologies"];
     Cavium
+    Funkwerk
 }
 
 {
@@ -304,6 +448,8 @@ clusterrank=LR
     rank=same;
     2001 [shape=box]
     Aastra2001 [label="Aastra Technologies"];
+    Swissvoice
+    Tevitel
 }
 
 {
@@ -329,6 +475,7 @@ clusterrank=LR
     2004 [shape=box]
     Aastra2004 [label="Aastra Technologies"];
     Juniper2004 [label="Juniper"];
+    Avaya2004 [label="Avaya"]
 }
 
 {
@@ -349,6 +496,7 @@ clusterrank=LR
     Ericsson2006 [label="Ericsson"];
     Aerohive
     SiemensEnt [label="Siemens Enterprise Communications"]
+    Funktel
 
 }
 
@@ -386,6 +534,7 @@ clusterrank=LR
     2010 [shape=box]
     HP2010 [label="Hewlett Packard"];
     Cisco2010 [label="Cisco"]
+    Invoxia
 }
 
 {
@@ -403,6 +552,7 @@ clusterrank=LR
     Coriant
     Extreme2013 [label="Extreme"];
     Mitel2013 [label="Mitel"];
+    Invoxia2013 [label="Invoxia"]
 
 }
 
@@ -412,6 +562,7 @@ clusterrank=LR
     2014 [shape=box]
     NokiaNet [label="Nokia Networks"];
     Mitel2014 [label="Mitel"];
+    BintecElmeg
 
 }
 
@@ -431,6 +582,7 @@ clusterrank=LR
     NokiaNet2016 [label="Nokia Networks"];
     Broadcom2016 [label="Broadcom"];
     Brocade2016 [label="Brocade"];
+    DieboldNixdorf
 
 }
 
@@ -448,7 +600,8 @@ clusterrank=LR
     rank=same;
     2018 [shape=box]
     Infinera2018 [label="Infinera"];
-    Marvell2018 [label="Marvell"]
+    Marvell2018 [label="Marvell"];
+    Ostertag
 }
 
 {
@@ -484,7 +637,7 @@ clusterrank=LR
     HPE2024 [label="Hewlett Packard Enterprise"];
 }
 
-    subgraph cluster_hackyears { 1847 -> 1865 -> 1869 -> 1876 -> 1877 -> 1885 -> 1887 -> 1897 -> 1925 -> 1933 -> 1939 -> 1957 -> 1961 -> 1970 -> 1971 -> 1976 -> 1978 -> 1979 -> 1980 -> 1982 -> 1983 -> 1984 -> 1985 -> 1986 -> 1987 -> 1989 -> 1990 -> 1992 -> 1993 -> 1994 -> 1995 -> 1996 -> 1997 -> 1998 -> 1999 -> 2000 -> 2001 -> 2002 -> 2003 -> 2004 -> 2005 -> 2006 -> 2007 -> 2008 -> 2009 -> 2010 -> 2012 -> 2013 -> 2014 -> 2015 -> 2016 -> 2017 -> 2018 -> 2019 -> 2021 -> 2023 -> 2024 [style="invis"] }
+    subgraph cluster_hackyears { 1847 -> 1852 -> 1859 -> 1865 -> 1869 -> 1876 -> 1877 -> 1885 -> 1886 -> 1887 -> 1891 -> 1897 -> 1898 -> 1899 -> 1912 -> 1921 -> 1922 -> 1925 -> 1933 -> 1934 -> 1939 -> 1945 -> 1946 -> 1948 -> 1952 -> 1957 -> 1960 -> 1961 -> 1970 -> 1971 -> 1973 -> 1976 -> 1978 -> 1979 -> 1980 -> 1981 -> 1982 -> 1983 -> 1984 -> 1985 -> 1986 -> 1987 -> 1989 -> 1990 -> 1992 -> 1993 -> 1994 -> 1995 -> 1996 -> 1997 -> 1998 -> 1999 -> 2000 -> 2001 -> 2002 -> 2003 -> 2004 -> 2005 -> 2006 -> 2007 -> 2008 -> 2009 -> 2010 -> 2012 -> 2013 -> 2014 -> 2015 -> 2016 -> 2017 -> 2018 -> 2019 -> 2021 -> 2023 -> 2024 [style="invis"] }
 
     subgraph cluster_nortelyears { Nortel1998 -> Nortel2000 [style="invis"] }
     // Nortel History
@@ -591,6 +744,24 @@ clusterrank=LR
     // Arris History
     Arris -> Arris2017 [color=red]
 
+
+    Bosch -> Bosch1989 [color=red]
+
+    Siemens -> Siemens1990 [color=red]
+
+    Diebold -> DieboldNixdorf [color=red]
+
+    Invoxia -> Invoxia2013 [color=red]
+
+    Autophon -> Autophon1987 [color=red]
+
+    subgraph cluster_italtelyears { Italtel -> Italtel1921 -> Italtel1945 -> Italtel1950 -> Italtel1981 [style="invis"] }
+    Italtel -> Italtel1921 -> Italtel1945 -> Italtel1950 -> Italtel1981 [color=red]
+
+    // Not accurate in 1992 two VEB company merged, but I don't understand how
+    Neutrowerk -> FunkwerkKolleda -> KombinatNachrichtenelektronik -> Funkwerk [color=red]
+
+
 // Acquisition List
 
 BellSys -> BellCore -> Telcordia -> Ericsson2012 -> Iconectiv
@@ -624,6 +795,10 @@ Infinera -> NokiaNet2024
 Siemens -> NokiaSiemens
 Siemens -> SiemensEnt -> Unify
 SiemensEnt -> Enterasys2008
+Siemens -> Italtel
+
+Nixdorf -> Siemens1990
+Nixdorf -> SiemensNixdorf -> WincorNixdorf -> DieboldNixdorf
 
 Adva -> Adtran2024
 
@@ -646,6 +821,7 @@ Nortel1998 -> Aastra2004 //Ascom
 
 Aastra -> Mitel2014
 DeTeWe -> Aastra2005
+DeTeWe -> Ostertag
 ShoreTel -> Mitel2017
 Unify -> Mitel2023
 
@@ -688,6 +864,38 @@ Aironet -> Cisco1999
 Tandberg -> Cisco2010
 
 Arris -> CommScope2019
+
+Swissvoice -> Invoxia2013
+
+// To fix the spinoff
+DeutschePrivatTelephonGesellschaft -> TN -> Telenorma  -> Bosch1989 -> Tenovis -> Avaya2004
+
+
+Philips -> PKI //Spinoff
+TeKaDe -> PKI // This is more complicated https://www.cryptomuseum.com/manuf/tekade/index.htm
+
+Funkwerk -> Funktel //Spinoff
+Funkwerk -> BintecElmeg //SpinOff 
+Teldat -> BintecElmeg //Subsidiary
+
+
+Bernafon -> Gfeller
+Autophon -> Gfeller // http://www.armyradio.ch/radio-e/autophon-firma-e.htm
+Gfeller -> Ascom
+
+Hasler -> Autophon
+
+
+// Really complicate stuff:
+
+//Zellweger https://www.cryptomuseum.com/manuf/zellweger/index.htm 
+
+// Ackermann not found
+// Artem not found
+// Tritel not sure
+
+// Hagenuk need more research
+
 
 label = "\nNetwork/Phone Vendors\n\nRED = Same Company";
 fontsize=13;
