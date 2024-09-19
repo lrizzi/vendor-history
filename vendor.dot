@@ -12,6 +12,7 @@ clusterrank=LR
     rank=same;
     1847 [shape=box]
     Siemens
+
 }
 
 {
@@ -19,6 +20,7 @@ clusterrank=LR
     rank=same;
     1852 [shape=box]
     Hasler
+
 }
 
 {
@@ -26,6 +28,7 @@ clusterrank=LR
     rank=same;
     1859 [shape=box]
     Diebold
+
 }
 
 {
@@ -33,6 +36,7 @@ clusterrank=LR
     rank=same;
     1865 [shape=box]
     Nokia
+
 }
 
 {
@@ -40,6 +44,7 @@ clusterrank=LR
     rank=same;
     1869 [shape=box]
     Western [label="Western Electric"];
+
 }
 
 {
@@ -47,6 +52,7 @@ clusterrank=LR
     rank=same;
     1876 [shape=box]
     Ericsson
+
 }
 
 {
@@ -54,6 +60,7 @@ clusterrank=LR
     rank=same;
     1877 [shape=box]
     BellSys [label="Bell System / Bell Telephone"];
+
 }
 
 {
@@ -61,6 +68,7 @@ clusterrank=LR
     rank=same;
     1885 [shape=box]
     ATTCorp [label="AT&T Corporation"];
+
 }
 
 {
@@ -68,6 +76,7 @@ clusterrank=LR
     rank=same;
     1886 [shape=box]
     Bosch
+
 }
 
 {
@@ -75,6 +84,7 @@ clusterrank=LR
     rank=same;
     1887 [shape=box]
     DeTeWe
+
 }
 
 {
@@ -82,6 +92,7 @@ clusterrank=LR
     rank=same;
     1891 [shape=box]
     Philips
+
 }
 
 {
@@ -89,21 +100,23 @@ clusterrank=LR
     rank=same;
     1897 [shape=box]
     Marconi
+
 }
 
 {
     // 1898
     rank=same;
     1898 [shape=box]
-    Italtel [label="Società Italiana Siemens per Impianti Elettrici"]
-}
+    Italtel [label="Società Italiana Siemens per Impianti Elettrici"];
 
+}
 
 {
     // 1899
     rank=same;
     1899 [shape=box]
-    DeutschePrivatTelephonGesellschaft [label="Deutsche Privat Telephon Gesellschaft"]
+    DeutschePrivatTelephonGesellschaft [label="Deutsche Privat Telephon Gesellschaft"];
+
 }
 
 {
@@ -111,13 +124,14 @@ clusterrank=LR
     rank=same;
     1912 [shape=box]
     TeKaDe
+
 }
 
 {
     // 1921
     rank=same;
     1921 [shape=box]
-    Italtel1921 [label="Siemens SA (Italtel)"]
+    Italtel1921 [label="Siemens SA (Italtel)"];
 }
 
 {
@@ -127,13 +141,12 @@ clusterrank=LR
     Autophon
 }
 
-
-
 {
     // 1925
     rank=same;
     1925 [shape=box]
     Bell [label="Bell Labs"];
+
 }
 
 {
@@ -141,13 +154,15 @@ clusterrank=LR
     rank=same;
     1933 [shape=box]
     Tandberg
+
 }
 
 {
     // 1934
     rank=same;
     1934 [shape=box]
-    TN [label="Telefonbau und Normalzeit"]
+    TN [label="Telefonbau und Normalzeit"];
+
 }
 
 {
@@ -155,6 +170,7 @@ clusterrank=LR
     rank=same;
     1939 [shape=box]
     HP [label="Hewlett Packard"];
+
 }
 
 {
@@ -162,7 +178,8 @@ clusterrank=LR
     rank=same;
     1945 [shape=box];
     Neutrowerk
-    Italtel1945 [label="Siemens SA (Italtel)"]
+    Italtel1945 [label="Siemens SA (Italtel)"];
+
 }
 
 {
@@ -170,21 +187,23 @@ clusterrank=LR
     rank=same;
     1946 [shape=box];
     Bernafon
-}
 
+}
 
 {
     // 1948
     rank=same;
     1948 [shape=box];
-    FunkwerkKolleda [label="Funkwerk Kölleda"]
+    FunkwerkKolleda [label="Funkwerk Kölleda"];
+
 }
 
 {
     // 1950
     rank=same;
     1950 [shape=box];
-    Italtel1950 [label="Società Italiana Telecomunicazioni Siemens / SIT-Siemens / Siemens Auso Telecomunicazioni"]
+    Italtel1950 [label="Società Italiana Telecomunicazioni Siemens \n SIT-Siemens \n Siemens Auso Telecomunicazioni"];
+
 }
 
 {
@@ -192,6 +211,7 @@ clusterrank=LR
     rank=same;
     1952 [shape=box]
     Nixdorf
+
 }
 
 {
@@ -199,6 +219,15 @@ clusterrank=LR
     rank=same;
     1957 [shape=box]
     DEC [label="Digital Equipment Corporation"];
+
+}
+
+{
+    // 1958
+    rank=same;
+    1958 [shape=box]
+    GoldStar
+
 }
 
 {
@@ -206,6 +235,7 @@ clusterrank=LR
     rank=same;
     1960 [shape=box]
     Auerswald
+
 }
 
 {
@@ -214,6 +244,7 @@ clusterrank=LR
     1961 [shape=box]
     HPA
     Plantronics
+
 }
 
 
@@ -222,6 +253,7 @@ clusterrank=LR
     rank=same;
     1970 [shape=box]
     Alcatel
+
 }
 
 {
@@ -229,6 +261,7 @@ clusterrank=LR
     rank=same;
     1971 [shape=box]
     Mitel
+
 }
 
 {
@@ -236,6 +269,7 @@ clusterrank=LR
     rank=same;
     1973 [shape=box]
     Tiptel
+
 }
 
 {
@@ -244,6 +278,7 @@ clusterrank=LR
     1976 [shape=box]
     Northern [label="Northern Telecom"];
     CommScope
+
 }
 
 {
@@ -251,6 +286,7 @@ clusterrank=LR
     rank=same;
     1978 [shape=box]
     Emulex
+
 }
 
 {
@@ -258,6 +294,7 @@ clusterrank=LR
     rank=same;
     1979 [shape=box]
     ThreeCom [label="3Com"];
+
 }
 
 {
@@ -265,7 +302,8 @@ clusterrank=LR
     rank=same;
     1980 [shape=box]
     Ortel
-    KombinatNachrichtenelektronik [label="Kombinat Nachrichtenelektronik"]
+    KombinatNachrichtenelektronik [label="Kombinat Nachrichtenelektronik"];
+
 }
 
 {
@@ -273,7 +311,8 @@ clusterrank=LR
     rank=same;
     1981 [shape=box]
     Telenorma
-    Italtel1981 [label="Italtel Spa"]
+    Italtel1981 [label="Italtel Spa"];
+
 }
 
 {
@@ -281,7 +320,8 @@ clusterrank=LR
     rank=same;
     1982 [shape=box]
     Compaq
-    PKI [label="Philips Kommunikations Industrie"]
+    PKI [label="Philips Kommunikations Industrie"];
+
 }
 
 {
@@ -294,6 +334,7 @@ clusterrank=LR
     Enterasys [label="Enterasys / Cabletron Systems"];
     Teles
     Teldat
+
 }
 
 {
@@ -301,6 +342,7 @@ clusterrank=LR
     rank=same;
     1984 [shape=box]
     Cisco
+
 }
 
 {
@@ -308,6 +350,7 @@ clusterrank=LR
     rank=same;
     1985 [shape=box]
     Adtran
+
 }
 
 {
@@ -315,16 +358,18 @@ clusterrank=LR
     rank=same;
     1986 [shape=box]
     Aironet
+
 }
 
 {
     //1987
     rank=same;
     1987 [shape=box]
-    Transition [label="Transition Networks"]
-    Autophon1987 [label="Autophon"]
+    Transition [label="Transition Networks"];
+    Autophon1987 [label="Autophon"];
     Gfeller
     Ascom
+
 }
 
 {   
@@ -332,7 +377,7 @@ clusterrank=LR
     rank=same;
     1989 [shape=box]
     Lantronix
-    Bosch1989 [label="Bosch"]
+    Bosch1989 [label="Bosch"];
     
 }
 
@@ -343,9 +388,10 @@ clusterrank=LR
     Polycom
     Kalpana
     LightStream
-    NetworkTranslation [label="Network Translation"]
-    Siemens1990 [label="Siemens"]
+    NetworkTranslation [label="Network Translation"];
+    Siemens1990 [label="Siemens"];
     SiemensNixdorf
+
 }
 
 
@@ -355,7 +401,8 @@ clusterrank=LR
     1992 [shape=box]
     Ciena
     Qlogic
-    GrandJunctionNetworks [label="Grand Junction Networks"]
+    GrandJunctionNetworks [label="Grand Junction Networks"];
+
 }
 
 {   
@@ -363,7 +410,8 @@ clusterrank=LR
     rank=same;
     1993 [shape=box]
     Cisco1993 [label="Cisco"]
-    ChinaHuaxinPost [label="China Huaxin Post and Telecom Technologies"]
+    ChinaHuaxinPost [label="China Huaxin Post and Telecom Technologies"];
+
 }
 
 {   
@@ -371,7 +419,8 @@ clusterrank=LR
     rank=same;
     1994 [shape=box]
     Adva
-    Cisco1994 [label="Cisco"]
+    Cisco1994 [label="Cisco"];
+
 }
 
 {   
@@ -381,8 +430,10 @@ clusterrank=LR
     Brocade
     Riverstone
     Marvell
-    Cisco1995 [label="Cisco"]
+    Cisco1995 [label="Cisco"];
     Arris
+    LGElectronics [label="LG Electronics"];
+
 }
 
 {   
@@ -397,6 +448,7 @@ clusterrank=LR
     Foundry
     ShoreTel
     Juniper
+
 }
 
 {   
@@ -406,6 +458,7 @@ clusterrank=LR
     Enterasys1997 [label="Enterasys / Cabletron Systems"];
     NetScreen
     Innovaphone
+
 }
 
 
@@ -417,6 +470,7 @@ clusterrank=LR
     Broadcom
     Chromatis
     Compaq1998 [label="Compaq"];
+
 }
 
 {
@@ -425,7 +479,7 @@ clusterrank=LR
     1999 [shape=box]
     Agilent
     Lucent1999 [label="Lucent Technologies"];
-    Cisco1999 [label="Cisco"]
+    Cisco1999 [label="Cisco"];
     Tenovis
     WincorNixdorf
 
@@ -442,6 +496,7 @@ clusterrank=LR
     Lucent2000 [label="Lucent Technologies"];
     Cavium
     Funkwerk
+
 }
 
 {
@@ -451,6 +506,7 @@ clusterrank=LR
     Aastra2001 [label="Aastra Technologies"];
     Swissvoice
     Tevitel
+
 }
 
 {
@@ -461,6 +517,7 @@ clusterrank=LR
     HP2002 [label="Hewlett Packard"];
     Aruba
     Ruckus
+
 }
 
 {
@@ -468,6 +525,8 @@ clusterrank=LR
     rank=same;
     2003 [shape=box]
     Aastra2003 [label="Aastra Technologies"];
+    H3C
+
 }
 
 {
@@ -486,6 +545,8 @@ clusterrank=LR
     Avago
     Aastra2005 [label="Aastra Technologies"];
     Marvell2005 [label="Marvell"]
+    LGNortel [label="LG-Nortel"]
+
 }
 
 {
@@ -496,7 +557,7 @@ clusterrank=LR
     AlcatelLucent [label="Alcatel Lucent"];
     Ericsson2006 [label="Ericsson"];
     Aerohive
-    SiemensEnt [label="Siemens Enterprise Communications"]
+    SiemensEnt [label="Siemens Enterprise Communications"];
     Funktel
 
 }
@@ -517,6 +578,7 @@ clusterrank=LR
     Brocade2008 [label="Brocade"];
     Aastra2008 [label="Aastra Technologies"];
     Enterasys2008 [label="Enterasys / Cabletron Systems"];
+
 }
 
 {
@@ -534,8 +596,9 @@ clusterrank=LR
     rank=same;
     2010 [shape=box]
     HP2010 [label="Hewlett Packard"];
-    Cisco2010 [label="Cisco"]
+    Cisco2010 [label="Cisco"];
     Invoxia
+
 }
 
 {
@@ -544,6 +607,8 @@ clusterrank=LR
     2012 [shape=box]
     Ericsson2012 [label="Ericsson"];
     Iconectiv
+    EricssonLG [label="Ericsson-LG"];
+
 }
 
 {
@@ -553,7 +618,7 @@ clusterrank=LR
     Coriant
     Extreme2013 [label="Extreme"];
     Mitel2013 [label="Mitel"];
-    Invoxia2013 [label="Invoxia"]
+    Invoxia2013 [label="Invoxia"];
 
 }
 
@@ -593,7 +658,7 @@ clusterrank=LR
     rank=same;
     2017 [shape=box]
     Mitel2017 [label="Mitel"];
-    Arris2017 [label="Arris"]
+    Arris2017 [label="Arris"];
 
 }
    
@@ -612,8 +677,9 @@ clusterrank=LR
     2019 [shape=box]
     Extreme2019 [label="Extreme"];
     Poly
-    CommScope2019 [label="CommScope"]
-    ALE [label="Alcatel-Lucent Enterprise"]
+    CommScope2019 [label="CommScope"];
+    ALE [label="Alcatel-Lucent Enterprise"];
+
 }
 
 {
@@ -623,148 +689,153 @@ clusterrank=LR
     Lantronix2021 [label="Lantronix"];
 }
 
-
 {
     //2023
     rank=same;
     2023 [shape=box]
     Mitel2023 [label="Mitel"];
+
 }
 
 {
     //2024
     rank=same;
     2024 [shape=box]
-    Adtran2024 [label="Adtran"]
+    Adtran2024 [label="Adtran"];
     NokiaNet2024 [label="Nokia Networks"];
     HPE2024 [label="Hewlett Packard Enterprise"];
+
 }
 
-    subgraph cluster_hackyears { 1847 -> 1852 -> 1859 -> 1865 -> 1869 -> 1876 -> 1877 -> 1885 -> 1886 -> 1887 -> 1891 -> 1897 -> 1898 -> 1899 -> 1912 -> 1921 -> 1922 -> 1925 -> 1933 -> 1934 -> 1939 -> 1945 -> 1946 -> 1948 -> 1952 -> 1957 -> 1960 -> 1961 -> 1970 -> 1971 -> 1973 -> 1976 -> 1978 -> 1979 -> 1980 -> 1981 -> 1982 -> 1983 -> 1984 -> 1985 -> 1986 -> 1987 -> 1989 -> 1990 -> 1992 -> 1993 -> 1994 -> 1995 -> 1996 -> 1997 -> 1998 -> 1999 -> 2000 -> 2001 -> 2002 -> 2003 -> 2004 -> 2005 -> 2006 -> 2007 -> 2008 -> 2009 -> 2010 -> 2012 -> 2013 -> 2014 -> 2015 -> 2016 -> 2017 -> 2018 -> 2019 -> 2021 -> 2023 -> 2024 [style="invis"] }
 
-    subgraph cluster_nortelyears { Nortel1998 -> Nortel2000 [style="invis"] }
+    // This is an hack to make the years box on the left
+    subgraph cluster_hackyears { 1847 -> 1852 -> 1859 -> 1865 -> 1869 -> 1876 -> 1877 -> 1885 -> 1886 -> 1887 -> 1891 -> 1897 -> 1898 -> 1899 -> 1912 -> 1921 -> 1922 -> 1925 -> 1933 -> 1934 -> 1939 -> 1945 -> 1946 -> 1948 -> 1952 -> 1957 -> 1958 -> 1960 -> 1961 -> 1970 -> 1971 -> 1973 -> 1976 -> 1978 -> 1979 -> 1980 -> 1981 -> 1982 -> 1983 -> 1984 -> 1985 -> 1986 -> 1987 -> 1989 -> 1990 -> 1992 -> 1993 -> 1994 -> 1995 -> 1996 -> 1997 -> 1998 -> 1999 -> 2000 -> 2001 -> 2002 -> 2003 -> 2004 -> 2005 -> 2006 -> 2007 -> 2008 -> 2009 -> 2010 -> 2012 -> 2013 -> 2014 -> 2015 -> 2016 -> 2017 -> 2018 -> 2019 -> 2021 -> 2023 -> 2024 [style="invis"] }
+
     // Nortel History
+    subgraph cluster_nortelyears { Nortel1998 -> Nortel2000 [style="invis"] }
     Northern -> Nortel1998 -> Nortel2000 [color=red]
 
-    subgraph cluster_lucentyears { Lucent -> Lucent1999 -> Lucent2000  -> Lucent2006 [style="invis"] }
     // Lucent History
+    subgraph cluster_lucentyears { Lucent -> Lucent1999 -> Lucent2000  -> Lucent2006 [style="invis"] }
     Lucent -> Lucent1999 -> Lucent2000 -> Lucent2006 [color=red]
 
-
-    subgraph cluster_adtranyears { Adtran -> Adtran2024 [style="invis"] }
     // Adtran History
+    subgraph cluster_adtranyears { Adtran -> Adtran2024 [style="invis"] }
     Adtran -> Adtran2024 [color=red]
 
-
-    subgraph cluster_avayayears { Avaya -> Avaya2009 [style="invis"] }
     // Avaya History
+    subgraph cluster_avayayears { Avaya -> Avaya2009 [style="invis"] }
     Avaya -> Avaya2009 [color=red]
 
-
-    subgraph cluster_hp { HP -> HP2002 -> HP2010 -> HPE [style="invis"] }
     //HP History
+    subgraph cluster_hp { HP -> HP2002 -> HP2010 -> HPE [style="invis"] }
     HP -> HP2002 -> HP2010 -> HPE [color=red]
 
-
-    subgraph cluster_nokiayears { Nokia -> NokiaSiemens -> NokiaNet -> NokiaNet2016 -> NokiaNet2024 [style="invis"] }
     // Nokia History
+    subgraph cluster_nokiayears { Nokia -> NokiaSiemens -> NokiaNet -> NokiaNet2016 -> NokiaNet2024 [style="invis"] }
     Nokia -> NokiaSiemens -> NokiaNet -> NokiaNet2016 -> NokiaNet2024 [color=red]
 
-
-    subgraph cluster_ericssonyears { Ericsson -> Ericsson2006 -> Ericsson2012 [style="invis"] }
     //Ericsson History
+    subgraph cluster_ericssonyears { Ericsson -> Ericsson2006 -> Ericsson2012 [style="invis"] }
     Ericsson -> Ericsson2006 -> Ericsson2012 [color=red]
 
-
-    subgraph cluster_infinerayears { Infinera -> Infinera2018 [style="invis"] }
     //Infinera History
+    subgraph cluster_infinerayears { Infinera -> Infinera2018 [style="invis"] }
     Infinera -> Infinera2018 [color=red]
 
-    subgraph cluster_cienayears { Ciena -> Ciena2009 [style="invis"] }
     //Infinera History
+    subgraph cluster_cienayears { Ciena -> Ciena2009 [style="invis"] }
     Ciena -> Ciena2009 [color=red]
 
-    subgraph cluster_mitelyears { Mitel -> Mitel2013 -> Mitel2014 -> Mitel2023 [style="invis"] }
     //Mitel History
+    subgraph cluster_mitelyears { Mitel -> Mitel2013 -> Mitel2014 -> Mitel2023 [style="invis"] }
     Mitel -> Mitel2013 -> Mitel2014 -> Mitel2017 -> Mitel2023 [color=red]
 
-    subgraph cluster_extremeyears { Extreme -> Extreme2013-> Extreme2019 [style="invis"] }
     //Extreme History
+    subgraph cluster_extremeyears { Extreme -> Extreme2013-> Extreme2019 [style="invis"] }
     Extreme -> Extreme2013-> Extreme2019 [color=red]
 
-
-    subgraph cluster_brocadeyears { Brocade -> Brocade2008 [style="invis"] }
     //Brocade History
+    subgraph cluster_brocadeyears { Brocade -> Brocade2008 [style="invis"] }
     Brocade -> Brocade2008 [color=red]
 
-    subgraph cluster_lantronixyears { Lantronix -> Lantronix2021 [style="invis"] }
     //Lantronix History
+    subgraph cluster_lantronixyears { Lantronix -> Lantronix2021 [style="invis"] }
     Lantronix -> Lantronix2021 [color=red]
 
-    subgraph cluster_broadcomyears {   Aastra -> Aastra2000 -> Aastra2001 -> Aastra2002 -> Aastra2003 -> Aastra2004 -> Aastra2005 -> Aastra2008 [style="invis"] }
     //Aastra History
+    subgraph cluster_broadcomyears {   Aastra -> Aastra2000 -> Aastra2001 -> Aastra2002 -> Aastra2003 -> Aastra2004 -> Aastra2005 -> Aastra2008 [style="invis"] }
     Aastra -> Aastra2000 -> Aastra2001 -> Aastra2002 -> Aastra2003 -> Aastra2004 -> Aastra2005 -> Aastra2008 [color=red]
 
-
-    subgraph cluster_broadcomyears {  HPA -> Agilent -> Avago -> Avago2015 -> Broadcom2016 [style="invis"] }
     //Broadcom History
+    subgraph cluster_broadcomyears {  HPA -> Agilent -> Avago -> Avago2015 -> Broadcom2016 [style="invis"] }
     HPA -> Agilent -> Avago -> Avago2015 -> Broadcom2016 [color=red]
     Broadcom -> Avago
 
-
-    subgraph cluster_hpeyears {  HPE -> HPE2024 [style="invis"] }
     //HPE History
+    subgraph cluster_hpeyears {  HPE -> HPE2024 [style="invis"] }
     HPE -> HPE2024 [color=red]
-
-
-
-    subgraph cluster_compaqyears { Lantronix -> Lantronix2021 [style="invis"] }
+    
     //Compaq History
+    subgraph cluster_compaqyears { Lantronix -> Lantronix2021 [style="invis"] }
     Compaq -> Compaq1998 [color=red]
-
-
-    subgraph cluster_marvellyears { Marvell -> Marvell2005 -> Marvell2018 [style="invis"] }
+    
     //Marvell History
-     Marvell -> Marvell2005 -> Marvell2018 [color=red]
+    subgraph cluster_marvellyears { Marvell -> Marvell2005 -> Marvell2018 [style="invis"] }
+    Marvell -> Marvell2005 -> Marvell2018 [color=red]
 
-    subgraph cluster_ciscoyears { Cisco -> Cisco1993 -> Cisco1994 -> Cisco1995 -> Cisco1999 -> Cisco2010 [style="invis"] }
     //Cisco History
+    subgraph cluster_ciscoyears { Cisco -> Cisco1993 -> Cisco1994 -> Cisco1995 -> Cisco1999 -> Cisco2010 [style="invis"] }
     Cisco -> Cisco1993 -> Cisco1994 -> Cisco1995 -> Cisco1999 -> Cisco2010 [color=red]
 
-    subgraph cluster_juniperyears { Juniper -> Juniper2004 [style="invis"] }
     //Juniper History
+    subgraph cluster_juniperyears { Juniper -> Juniper2004 [style="invis"] }
     Juniper -> Juniper2004 [color=red]
 
-    subgraph cluster_enterasysyears { Enterasys -> Enterasys1997 -> Enterasys2008 [style="invis"] }
     //Cabletron Enterasys History
+    subgraph cluster_enterasysyears { Enterasys -> Enterasys1997 -> Enterasys2008 [style="invis"] }
     Enterasys -> Enterasys1997 -> Enterasys2008 [color=red]
 
+    // Commscope History
     subgraph cluster_commscopyears { CommScope -> CommScope2019 [style="invis"] }
-    // Arris History
     CommScope -> CommScope2019 [color=red]
 
-    subgraph cluster_arrisyears { Arris -> Arris2017 [style="invis"] }
     // Arris History
+    subgraph cluster_arrisyears { Arris -> Arris2017 [style="invis"] }
     Arris -> Arris2017 [color=red]
 
-
+    // Arris History
+    subgraph cluster_boschyears { Bosch -> Bosch1989 [style="invis"] }
     Bosch -> Bosch1989 [color=red]
 
+    // Arris History
+    subgraph cluster_siemensyears { Siemens -> Siemens1990 [style="invis"] }
     Siemens -> Siemens1990 [color=red]
 
+    // Arris History
+    subgraph cluster_dieboldyears { Diebold -> DieboldNixdorf [style="invis"] }
     Diebold -> DieboldNixdorf [color=red]
 
+    // Invoxia History
+    subgraph cluster_invoxiayears { Invoxia -> Invoxia2013 [style="invis"] }
     Invoxia -> Invoxia2013 [color=red]
-
+    
+    // Autophon History
+    subgraph cluster_Autophonyears { Autophon -> Autophon1987 [style="invis"] }
     Autophon -> Autophon1987 [color=red]
 
+    // LG History
+    subgraph cluster_lgyears { GoldStar -> LGElectronics [style="invis"] }
+    GoldStar -> LGElectronics [color=red]
+
+    // Italtel History
     subgraph cluster_italtelyears { Italtel -> Italtel1921 -> Italtel1945 -> Italtel1950 -> Italtel1981 [style="invis"] }
     Italtel -> Italtel1921 -> Italtel1945 -> Italtel1950 -> Italtel1981 [color=red]
 
+
+    // Neutrowerk History
     // Not accurate in 1992 two VEB company merged, but I don't understand how
     Neutrowerk -> FunkwerkKolleda -> KombinatNachrichtenelektronik -> Funkwerk [color=red]
-
-    ChinaHuaxinPost -> ALE
 
 // Acquisition List
 
@@ -785,7 +856,10 @@ Western -> Nortel
 Nortel -> Avaya2009
 Lucent -> Avaya
 
+// Lucent Stuff
 ATT -> Lucent -> AlcatelLucent -> NokiaNet2016
+ChinaHuaxinPost -> ALE
+
 // Lucent Acquisitions
 Ascend -> Lucent1999
 Chromatis -> Lucent2000
@@ -811,7 +885,7 @@ Adva -> Adtran2024
 Transition -> Lantronix2021
 Marconi -> Ericsson2006
 
-//LGNortel ->EricssonLG
+
 //Ericsson -> Saab 
 //Tandberg -> Ericsson // Video Encoder
 
@@ -832,10 +906,15 @@ Unify -> Mitel2023
 Aerohive -> Extreme2019
 Enterasys -> Extreme2013
 
+// LG and Nortel later acquired by Ericsson
+Nortel -> LGNortel
+Ericsson -> EricssonLG
+LGNortel -> EricssonLG [color=red]
+
 
 Aruba -> HPE
 ThreeCom -> HP2010
-//H3C -> HPE
+H3C -> HPE // Owned by 49%
 
 Ruckus -> Brocade2016
 Ruckus -> Arris2017
