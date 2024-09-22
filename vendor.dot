@@ -440,6 +440,7 @@ clusterrank=LR
     rank=same;
     1984 [shape=box]
     Cisco
+    Patton [label="Patton Electronics"]
 
 }
 
