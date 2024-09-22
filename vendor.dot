@@ -441,6 +441,7 @@ clusterrank=LR
     1984 [shape=box]
     Cisco
     Patton [label="Patton Electronics"]
+    Sangoma
 
 }
 
@@ -587,6 +588,7 @@ clusterrank=LR
     Cisco1999 [label="Cisco"];
     Tenovis
     WincorNixdorf
+    Digium  
 
 }
 
@@ -788,6 +790,7 @@ clusterrank=LR
     Infinera2018 [label="Infinera"];
     Marvell2018 [label="Marvell"];
     Ostertag
+    Sangoma2018 [label="Sangoma"]
 }
 
 {
@@ -997,6 +1000,8 @@ clusterrank=LR
 
     Intec -> Intec2015 [color=red]
 
+    Sangoma -> Sangoma2018 [color=red]
+
     // Neutrowerk History
     // Not accurate in 1992 two VEB company merged, but I don't understand how
     Neutrowerk -> FunkwerkKolleda -> KombinatNachrichtenelektronik -> Funkwerk [color=red]
@@ -1051,6 +1056,8 @@ Nixdorf -> Siemens1990
 Nixdorf -> SiemensNixdorf -> WincorNixdorf -> DieboldNixdorf
 
 Adva -> Adtran2024
+
+Digium -> Sangoma2018
 
 // I don't know when it was founded ????
 //Patapsco -> 
