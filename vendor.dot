@@ -349,6 +349,7 @@ clusterrank=LR
     rank=same;
     1970 [shape=box]
     Alcatel
+    WilhelmHeibl [label="Wilhelm Heibl Werke Verwaltungs (✝︎2015)"];
 
 }
 
@@ -618,7 +619,7 @@ clusterrank=LR
     HP2002 [label="Hewlett Packard"];
     Aruba
     Ruckus
-    Behnke
+    Behnke [label="Telecom Behnke"]
 }
 
 {
@@ -825,7 +826,7 @@ clusterrank=LR
     Adtran2024 [label="Adtran"];
     NokiaNet2024 [label="Nokia Networks"];
     HPE2024 [label="Hewlett Packard Enterprise"];
-    VTech2024
+    VTech2024 [label="VTech"]
 
 }
 
