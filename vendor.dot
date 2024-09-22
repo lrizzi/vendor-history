@@ -710,7 +710,7 @@ clusterrank=LR
     //2011
     rank=same;
     2011 [shape=box]
-    Toshiba2011
+    Toshiba2011 [label="Toshiba"]
 
 }
 
