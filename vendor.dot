@@ -491,6 +491,7 @@ clusterrank=LR
     Siemens1990 [label="Siemens"];
     SiemensNixdorf
     Spectralink
+    Intec
 
 }
 
@@ -571,6 +572,8 @@ clusterrank=LR
     Broadcom
     Chromatis
     Compaq1998 [label="Compaq"];
+    GIAS [label="Gesellschaft für Informationstechnik in Assekuranzbetrieben mbH (✝︎2005)"];
+
 
 }
 
@@ -752,6 +755,7 @@ clusterrank=LR
     2015 [shape=box]
     HPE [label="Hewlett Packard Enterprise"];
     Avago2015 [label="Avago"];
+    Intec2015 [label="Intec"];
 
 }
 
@@ -990,6 +994,8 @@ clusterrank=LR
     subgraph cluster_panasonicyears { Panasonic1918 -> Panasonic1935 -> Panasonic2008 [style="invis"] }
     Panasonic1918 -> Panasonic1935 -> Panasonic2008 [color=red]
 
+    Intec -> Intec2015 [color=red]
+
     // Neutrowerk History
     // Not accurate in 1992 two VEB company merged, but I don't understand how
     Neutrowerk -> FunkwerkKolleda -> KombinatNachrichtenelektronik -> Funkwerk [color=red]
@@ -1137,6 +1143,8 @@ Autophon -> Gfeller // http://www.armyradio.ch/radio-e/autophon-firma-e.htm
 Gfeller -> Ascom
 
 Hasler -> Autophon
+
+GIAS -> Intec2015
 
 
 // Really complicate stuff:
