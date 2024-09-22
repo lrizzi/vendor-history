@@ -506,6 +506,7 @@ clusterrank=LR
     Ciena
     Qlogic
     GrandJunctionNetworks [label="Grand Junction Networks"];
+    Radvision
 
 }
 
@@ -728,6 +729,7 @@ clusterrank=LR
     Ericsson2012 [label="Ericsson"];
     Iconectiv
     EricssonLG [label="Ericsson-LG"];
+    Avaya2012 [label="Avaya"]
 
 }
 
@@ -856,8 +858,8 @@ clusterrank=LR
     Adtran -> Adtran2024 [color=red]
 
     // Avaya History
-    subgraph cluster_avayayears { Avaya -> Avaya2009 [style="invis"] }
-    Avaya -> Avaya2009 [color=red]
+    subgraph cluster_avayayears { Avaya -> Avaya2009 -> Avaya2012 [style="invis"] }
+    Avaya -> Avaya2009 -> Avaya2012 [color=red]
 
     //HP History
     subgraph cluster_hp { HP -> HP2002 -> HP2010 -> HP2022 -> HPE [style="invis"] }
@@ -1081,6 +1083,8 @@ Ericsson -> Aastra2002 // Cable
 Nortel1998 -> Aastra2000 //Phone
 Nortel1998 -> Aastra2003 //CVX CSG
 Nortel1998 -> Aastra2004 //Ascom
+
+Radvision -> Avaya2012
 
 Aastra -> Mitel2014
 DeTeWe -> Aastra2005
