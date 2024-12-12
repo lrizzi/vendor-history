@@ -83,6 +83,7 @@ clusterrank=LR
     rank=same;
     1886 [shape=box]
     Bosch
+    GEC [label="General Electric Company"];
 
 }
 
@@ -495,6 +496,7 @@ clusterrank=LR
     SiemensNixdorf
     Spectralink
     Intec
+    FORESystems [label="FORE Systems"];
 
 }
 
@@ -590,7 +592,8 @@ clusterrank=LR
     Cisco1999 [label="Cisco"];
     Tenovis
     WincorNixdorf
-    Digium  
+    Digium
+    Marconi1999 [label="Marconi"];
 
 }
 
@@ -775,7 +778,7 @@ clusterrank=LR
     Broadcom2016 [label="Broadcom"];
     Brocade2016 [label="Brocade"];
     DieboldNixdorf
-    VTech2016
+    VTech2016 [label="VTech"]
 
 }
 
@@ -839,7 +842,7 @@ clusterrank=LR
     Adtran2024 [label="Adtran"];
     NokiaNet2024 [label="Nokia Networks"];
     HPE2024 [label="Hewlett Packard Enterprise"];
-    VTech2024 [label="VTech"]
+    VTech2024 [label="VTech"];
 
 }
 
@@ -1007,6 +1010,12 @@ clusterrank=LR
     subgraph cluster_axxessityears { AXXESSIT -> AXXESSIT2000 [style="invis"]}
     AXXESSIT -> AXXESSIT2000 [color=red] 
 
+    // Marconi
+    subgraph cluster_marconiyears { Marconi -> Marconi1999 [style="invis"]}
+    Marconi -> Marconi1999 [color=red] 
+    
+
+
     Intec -> Intec2015 [color=red]
 
     Sangoma -> Sangoma2018 [color=red]
@@ -1073,10 +1082,12 @@ Digium -> Sangoma2018
 Transition -> Lantronix2021
 Marconi -> Ericsson2006
 AXXESSIT2000 -> Ericsson2005
+FORESystems -> Marconi1999
+GEC -> Marconi1999
 
 // Vtech
 
-Gigaset -> Vtech2024
+Gigaset -> VTech2024
 Snom -> VTech2016
 
 //Ericsson -> Saab 
