@@ -376,7 +376,7 @@ clusterrank=LR
     Northern [label="Northern Telecom"];
     CommScope
     VTech
-
+    AXXESSIT
 }
 
 {
@@ -605,6 +605,7 @@ clusterrank=LR
     Lucent2000 [label="Lucent Technologies"];
     Cavium
     Funkwerk
+    AXXESSIT2000 [label="AXXESSIT"]
 
 }
 
@@ -656,6 +657,7 @@ clusterrank=LR
     Aastra2005 [label="Aastra Technologies"];
     Marvell2005 [label="Marvell"]
     LGNortel [label="LG-Nortel"]
+    Ericsson2005 [label="Ericsson"];
 
 }
 
@@ -870,8 +872,8 @@ clusterrank=LR
     Nokia -> NokiaSiemens -> NokiaNet -> NokiaNet2016 -> NokiaNet2024 [color=red]
 
     //Ericsson History
-    subgraph cluster_ericssonyears { Ericsson -> Ericsson2006 -> Ericsson2012 [style="invis"] }
-    Ericsson -> Ericsson2006 -> Ericsson2012 [color=red]
+    subgraph cluster_ericssonyears { Ericsson -> Ericsson2005 -> Ericsson2006 -> Ericsson2012 [style="invis"] }
+    Ericsson -> Ericsson2005 -> Ericsson2006 -> Ericsson2012 [color=red]
 
     //Infinera History
     subgraph cluster_infinerayears { Infinera -> Infinera2018 [style="invis"] }
@@ -1001,6 +1003,10 @@ clusterrank=LR
     subgraph cluster_panasonicyears { Panasonic1918 -> Panasonic1935 -> Panasonic2008 [style="invis"] }
     Panasonic1918 -> Panasonic1935 -> Panasonic2008 [color=red]
 
+    //AXXESSIT ASA
+    subgraph cluster_axxessityears { AXXESSIT -> AXXESSIT2000 [style="invis"]}
+    AXXESSIT -> AXXESSIT2000 [color=red] 
+
     Intec -> Intec2015 [color=red]
 
     Sangoma -> Sangoma2018 [color=red]
@@ -1066,6 +1072,7 @@ Digium -> Sangoma2018
 //Patapsco -> 
 Transition -> Lantronix2021
 Marconi -> Ericsson2006
+AXXESSIT2000 -> Ericsson2005
 
 // Vtech
 
