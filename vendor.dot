@@ -555,6 +555,7 @@ clusterrank=LR
     Foundry
     ShoreTel
     Juniper
+    BerkeleyNetworks [label="Berkeley Networks"];
 
 }
 
@@ -579,7 +580,7 @@ clusterrank=LR
     Chromatis
     Compaq1998 [label="Compaq"];
     GIAS [label="Gesellschaft für Informationstechnik in Assekuranzbetrieben mbH (✝︎2005)"];
-
+    FORESystems1998 [label="FORE Systems"]
 
 }
 
@@ -1013,7 +1014,10 @@ clusterrank=LR
     // Marconi
     subgraph cluster_marconiyears { Marconi -> Marconi1999 [style="invis"]}
     Marconi -> Marconi1999 [color=red] 
-    
+
+     // FORE
+    subgraph cluster_foreyears { FORESystems -> FORESystems1998 [style="invis"]}
+    FORESystems -> FORESystems1998 [color=red]    
 
 
     Intec -> Intec2015 [color=red]
@@ -1082,7 +1086,7 @@ Digium -> Sangoma2018
 Transition -> Lantronix2021
 Marconi -> Ericsson2006
 AXXESSIT2000 -> Ericsson2005
-FORESystems -> Marconi1999
+FORESystems1998 -> Marconi1999
 GEC -> Marconi1999
 
 // Vtech
