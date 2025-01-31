@@ -610,6 +610,7 @@ clusterrank=LR
     Cavium
     Funkwerk
     AXXESSIT2000 [label="AXXESSIT"]
+    TiMetra
 
 }
 
@@ -641,6 +642,7 @@ clusterrank=LR
     2003 [shape=box]
     Aastra2003 [label="Aastra Technologies"];
     H3C
+    Alcatel2003 [label="Alcatel"];
 
 }
 
@@ -1033,7 +1035,9 @@ clusterrank=LR
 BellSys -> BellCore -> Telcordia -> Ericsson2012 -> Iconectiv
 
 // Alcatel
-Alcatel -> AlcatelLucent -> AlcatelLucent2014 -> ALE
+Alcatel -> Alcatel2003 -> AlcatelLucent -> AlcatelLucent2014 -> ALE
+
+TiMetra -> Alcatel2003 
 
 Alsatel -> CGE1965
 CIT -> Alcatel
