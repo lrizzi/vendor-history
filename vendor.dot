@@ -411,6 +411,7 @@ clusterrank=LR
     1981 [shape=box]
     Telenorma
     Italtel1981 [label="Italtel Spa"];
+    PerformanceTechnologies [label="Performance Technologies"]
 
 }
 
@@ -567,6 +568,7 @@ clusterrank=LR
     NetScreen
     Innovaphone
     Snom
+    Sonus [label="Sonus Networks"]
 
 }
 
@@ -595,6 +597,7 @@ clusterrank=LR
     WincorNixdorf
     Digium
     Marconi1999 [label="Marconi"];
+    Genband [label="General Bandwidth"]
 
 }
 
@@ -749,6 +752,7 @@ clusterrank=LR
     Extreme2013 [label="Extreme"];
     Mitel2013 [label="Mitel"];
     Invoxia2013 [label="Invoxia"];
+    Sonus2013 [label="Sonus Network"]
 
 }
 
@@ -791,6 +795,7 @@ clusterrank=LR
     2017 [shape=box]
     Mitel2017 [label="Mitel"];
     Arris2017 [label="Arris"];
+    Ribbon [label="Ribbon Communications"]
 
 }
    
@@ -1019,7 +1024,11 @@ clusterrank=LR
 
      // FORE
     subgraph cluster_foreyears { FORESystems -> FORESystems1998 [style="invis"]}
-    FORESystems -> FORESystems1998 [color=red]    
+    FORESystems -> FORESystems1998 [color=red]   
+
+    // Ribbon
+    subgraph cluster_sonusyears { Sonus -> Sonus2013 [style="invis"]}
+    Sonus -> Sonus2013 [color=red]
 
 
     Intec -> Intec2015 [color=red]
@@ -1097,6 +1106,12 @@ GEC -> Marconi1999
 
 Gigaset -> VTech2024
 Snom -> VTech2016
+
+
+// Ribbon
+PerformanceTechnologies -> Sonus2013
+Sonus2013 -> Ribbon
+Genband -> Ribbon
 
 //Ericsson -> Saab 
 //Tandberg -> Ericsson // Video Encoder
